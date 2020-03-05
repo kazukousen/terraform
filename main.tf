@@ -33,3 +33,7 @@ module "describe_regions_for_ec2" {
 module "s3" {
   source = "./storage"
 }
+
+module "network" {
+  source = "./network"
+}
